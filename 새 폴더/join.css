@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh;
+  }
+   .container #login-row #login-column #login-box {
+    margin-top: -410px;
+    max-width: 600px;
+    height: 450px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+    margin-left: 280px;
+    
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+.row{ padding-left: 500px;
+margin-top: 220px; }
+
+.pass_show{position: relative} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: #f36c01; 
+
+margin-top: -13px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+
+.pass_show .ptxt:hover{color: #333333;} 
+
